@@ -19,7 +19,7 @@ date = st.date_input('end of your leave')
 speech = st.audio_input('Record reason for your leave')
 
 #HR requirements
-image = st.camera_input('Take a picture of your surroundiing')
+image = st.camera_input('Take a picture of your surrounding')
 choice = st.radio('is it necessary for you to take your leave now', ['yes', 'no'])
 number = st.slider('if yes, rate the importantance of your leave out of 10', 0,10)
 
